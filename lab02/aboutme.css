@@ -1,0 +1,54 @@
+p {
+    font-family: Helvetica, Verdana,sans-serif;
+
+}
+
+h1{
+    font-size: 40pt;
+    color: #F7931E; 
+    text-shadow: 3px -3px green;
+}
+
+h2 {
+   color: #F7931E; 
+}
+
+a{
+    color: #FF4F4F;
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
+p::first-letter {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+strong{
+    color:#FFF86B;
+}
+
+ul, ol, blockquote {
+    text-align: left;
+}
+
+dt{
+    font-weight : bold;
+    color:#FFF86B;
+}
+
+q{
+    color :#D1DFEB;
+}
+
+dl{
+    font-size: 70%;
+}
+
+body{
+    color: #939396;
+    background-color : #1D2475;
+}
+
+
