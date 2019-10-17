@@ -1,0 +1,64 @@
+  #mission {
+    font-style: italic;
+    font-family: "Garamond", "Century Gothic", serif;
+  }
+
+  .special {              /* any element with class="special" */
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .shout {               /* only p elements with class="special" */
+    color: red;
+    font-family: cursive;
+  }
+
+  li strong { 
+    text-decoration: underline; 
+  }
+
+  #ad li.important strong {
+    text-decoration: underline;
+  }
+
+  /* h2 { 
+    border-left: thick dotted #CC0088;
+    border-bottom-color: rgb(0, 128, 128);
+    border-bottom-style: double;
+  } */
+
+  /* p {
+    border: 3px solid blue;
+    border-radius: 12px;
+    padding: 0.5em;
+  } */
+  
+  /* p { padding: 20px; border: 3px solid black; } */
+
+  /* p {
+    padding-left: 200px; padding-top: 30px;
+    background-color: fuchsia;
+  } */
+
+  /* p {
+    margin: 50px;
+    background-color: fuchsia;
+  } */
+
+  /* p {
+    margin-left: 8em;
+    background-color: fuchsia;
+  }
+
+  h2 { padding: 0px; background-color: yellow; } */
+/* 
+p { width: 350px; background-color: yellow; }
+h2 { width: 50%; background-color: aqua; } */
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  width: 750px;
+}
