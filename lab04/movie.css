@@ -1,0 +1,71 @@
+body{
+    background-image: url("background.png");
+    margin: 0%;
+    padding: 0%;
+
+}
+
+p{
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif; 
+}
+
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+
+}
+
+div#banner{
+    text-align: center; 
+    background-image: url("bannerbg.png"); 
+    height: 50px;
+    background-position: 0%;
+    background-repeat: repeat-x;   
+}
+
+div#box{
+    overflow: hidden;
+    border : 4px solid gray;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.review{
+    font : 8pt;
+    font-weight : bold;
+    background-color: #E8DC9B;
+    border: 2px solid gray ;
+    border-radius: 10px;
+
+}
+
+#side{
+    
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    background-color: #A2B964;
+    width: 250px;  
+}
+
+
+#side dt{
+    font-weight: bold;
+}
+
+div#rotten{
+    
+    width: 550px;
+    background-image: url(rbg.png);
+    height: 83px;
+    font-weight: bold;
+    font:48pt;
+}
