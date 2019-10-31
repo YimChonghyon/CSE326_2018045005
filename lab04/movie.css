@@ -38,34 +38,105 @@ div#box{
     
 }
 
+
+
+article{
+    width: 550px;
+    background-image: url(rbg.png);
+    height: 83px;
+    color: red;
+    font-weight: bold;
+    font-size: 48pt;
+    /* vertical-align: middle; */
+}
+
+
+section{
+    font: 8pt;
+    width: 550px;
+    /* padding-left: 2%; */
+}
+
+#reviewbox1{
+    float:left ;
+    width: 47%;
+    margin: 2%;
+   
+}
+
+#reviewbox2{
+    display: inline-block;
+    width: 47%;
+    margin-top: 2;;
+    margin-right: 2%;
+}
+
+
 .review{
-    font : 8pt;
     font-weight : bold;
     background-color: #E8DC9B;
     border: 2px solid gray ;
     border-radius: 10px;
+    /* width: 40%;  */
+    margin: 2%;
+    padding: 8px;
 
 }
 
-#side{
+
+.review img{
+    float: left;
+    margin-right: 5px;
+}
+
+.reviewer{
+    padding-left: 5px;
+    margin-bottom: 20pt;
     
+}
+
+.reviewer img{
+    float : left;
+    margin-right: 5px;
+    
+}
+
+
+
+aside{
     float: right;
     font-family: Arial, sans-serif;
     font-size: 8pt;
     background-color: #A2B964;
-    width: 250px;  
-}
-
-
-#side dt{
-    font-weight: bold;
-}
-
-div#rotten{
+    width: 250px; 
     
-    width: 550px;
-    background-image: url(rbg.png);
-    height: 83px;
+}
+
+aside dl{
+    margin : 10pt;
+}
+
+aside dd{
+    padding-bottom: 10pt;
+}
+aside dt{
     font-weight: bold;
-    font:48pt;
+}
+
+
+
+footer{
+    margin: 5px;
+    padding: 5px;
+    background-color: #A2B964;
+    text-align: center;
+    border: 5px; 
+}
+
+#w3c{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
 }
