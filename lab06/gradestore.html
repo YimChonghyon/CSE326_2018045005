@@ -18,29 +18,44 @@
 		<h2>Buy your Grade today!</h2>
 		
 		<!-- create an HTML Form -->
-		
-			Name:
-			ID: 
-			
-			Course: 
-				CSE326
-				CSE107
-				CSE603
-				CIN870
-			
-			Grade: 
-				A+
-				A
-				B+
-				B
-			
-			Credit Card: 
-				Visa
-				MasterCard
-	
-			<div id="submitbutton">
-				<!-- create submit button here -->
+		<form methiod="post" action="cheater.php">
+			<div>
+				Name : <input type="text" name="Name" />
+				ID : <input type="text" name="Id"/>
 			</div>
-
+			<div>
+				<label>Course:
+					<input type="checkbox" name="Course[]" >CSE326
+					<input type="checkbox" name="Course[]" >CSE107
+					<input type="checkbox" name="Course[]" >CSE603
+					<input type="checkbox" name="Course[]" >CIN870
+				</label>
+			</div>
+			<div>
+				<label>
+					Grade:
+					<select name="grades">
+						<option>A+</option>
+						<option>A</option>
+						<option>B+</option>
+						<option>B</option>
+					</select>
+				</label>
+			</div>
+			<div>
+				<label>
+					Credit Card:
+					<input type="text" name="CrecitCardtext">
+					<label><input type="radio" name="CreditCard" value="Visa">Visa</label>
+					<label><input type="radio" name="CreditCard" value="MasterCard">MasterCard</label>
+				</label>
+			</div>
+			<div>
+				<div id ="submitbotton">
+					<input type="button" name="SubmitBot" value="I am a giant cheater!">
+				</div>
+			</div>
+		</form>
+		
 	</body>
 </html>
